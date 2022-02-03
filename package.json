@@ -1,0 +1,27 @@
+{
+  "name": "delete-from-array",
+  "version": "1.0.0",
+  "description": "You can delete any element from the array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunerselamoglu/delete-from-array.git"
+  },
+  "keywords": [
+    "delete",
+    "array",
+    "slice",
+    "remove"
+  ],
+  "author": "Güner Selamoğlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunerselamoglu/delete-from-array/issues"
+  },
+  "homepage": "https://github.com/gunerselamoglu/delete-from-array#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
