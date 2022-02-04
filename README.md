@@ -8,13 +8,22 @@
     npm install delete-from-array --save
 ```
 
-## Usage
+## usage
 
+```javascript
+import deleteFromArray from 'delete-from-array'
 
-```
-const deleteFromArray = require('delete-from-array');
-const newArray = deleteFromArray([8,4,'g','n','r'], ['r',8]);
-console.log(newArray); //4,g,n
+const deleteFromArray = require('delete-from-array'); // Nodejs
+
+const targetArray = [8,4,'g','n','r'] // Target array <Array>
+
+const deletedValues = ['r',8] // Values to be deleted <Array>
+
+const newArray = deleteFromArray(targetArray, deletedValues);
+
+console.log(newArray); // [4, g, n]
+
+deleteFromArray(targetArray, deletedValues); // [4, g, n]
 
 ```
 
